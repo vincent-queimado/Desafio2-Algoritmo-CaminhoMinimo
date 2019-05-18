@@ -25,7 +25,7 @@ Dado um grafo, implementa um algoritmo em NodeJs que encontre o caminho de menor
 $ node app.js
 ```
 
-### Criação dos nos de acordo com os vértices do grafo:
+### Criação dos nós de acordo com os vértices do grafo:
 
 ```
 route.addNode('0', new Map([
