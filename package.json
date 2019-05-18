@@ -1,0 +1,31 @@
+{
+    "author": "Vincent Queimado <vincent.queimado@gmail.com>",
+    "name": "Desafio2",
+    "description": "Desafio 2",
+    "tags": [
+        "algorithm",
+        "dijkstra"
+    ],
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/vincent.queimado"
+    },
+    "engines": {
+        "node": ">= 10.0.0"
+    },
+    "bugs": {
+        "url": "git://github.com/vincent.queimado/issues"
+    },
+    "main": "./app.js",
+    "scripts": {
+        "test": ""
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "git://github.com/vincent.queimado/raw/master/LICENSE"
+    }],
+    "dependencies": {
+
+    }
+}
