@@ -25,34 +25,56 @@ Dado um grafo, implementa um algoritmo em NodeJs que encontre o caminho de menor
 $ node app.js
 ```
 
-### Tabela de representação dos vértices do grafo:
+### Criação dos nos de acordo com os vértices do grafo:
 
 ```
-vertices = [
-    [0, 1, 2],
-    [0, 4, 3],
-    [1, 0, 2],
-    [1, 3, 8],
-    [1, 5, 9],
-    [1, 6, 6],
-    [2, 5, 3],
-    [2, 6, 7],
-    [3, 1, 8],
-    [3, 7, 6],
-    [4, 0, 3],
-    [4, 6, 5],
-    [4, 7, 9],
-    [5, 1, 9],
-    [5, 2, 3],
-    [5, 6, 4],
-    [5, 7, 5],
-    [6, 1, 6],
-    [6, 2, 7],
-    [6, 4, 5],
-    [6, 5, 4],
-    [7, 3, 6],
-    [7, 4, 9],
-    [7, 5, 5]]
+route.addNode('0', new Map([
+    ['1', 2],
+    ['4', 3]
+]));
+
+route.addNode('1', new Map([
+    ['0', 2],
+    ['3', 8],
+    ['5', 9],
+    ['6', 6]
+]));
+
+route.addNode('2', new Map([
+    ['5', 3],
+    ['6', 7]
+]));
+
+route.addNode('3', new Map([
+    ['1', 8],
+    ['7', 6]
+]));
+
+route.addNode('4', new Map([
+    ['0', 3],
+    ['6', 5],
+    ['7', 9],
+]));
+
+route.addNode('5', new Map([
+    ['1', 9],
+    ['2', 3],
+    ['6', 4],
+    ['7', 5]
+]));
+
+route.addNode('6', new Map([
+    ['1', 6],
+    ['2', 7],
+    ['4', 5],
+    ['5', 4]
+]));
+
+route.addNode('7', new Map([
+    ['3', 6],
+    ['4', 9],
+    ['5', 5]
+]));
 ```
 
 ### Resultado
