@@ -93,7 +93,7 @@ Resultado de todos os vértices do grafo a partir do vértice 0. O calculo foi r
 ```
 
 <p align="center">
-  <img src="https://everguard.com.br/desafios/resultado_desafio2.png" width="600" title="Resultado Desafio 2" alt="Resultado Desafio 2">
+  <img src="https://everguard.com.br/desafios/Resultado_Desafio2.png" width="600" title="Resultado Desafio 2" alt="Resultado Desafio 2">
 </p>
 
 
