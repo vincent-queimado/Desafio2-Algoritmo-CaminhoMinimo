@@ -1,8 +1,8 @@
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?longCache=true&style=flat-square)
 
-# DESAFIO N°2 - Problema do caminho mínimo
+# Problema do caminho mínimo
 
-## Objetivo do desafio:
+## Objetivo:
 
 Dado o grafo da Figura 2, implementa um algoritmo em NodeJs que encontre o caminho de menor custo a partir de um nó de origem. Imprima o resultado do custo e o caminho calculado a partir do vértice 0 para todos os outros.
 
