@@ -4,11 +4,7 @@
 
 ## Objetivo:
 
-Dado o grafo da Figura 2, implementa um algoritmo em NodeJs que encontre o caminho de menor custo a partir de um nó de origem. Imprima o resultado do custo e o caminho calculado a partir do vértice 0 para todos os outros.
-
-<p align="center">
-  <img src="https://everguard.com.br/desafios/grafo_desafio2.png" width="600" title="Figura 2" alt="Figura 2">
-</p>
+Algoritmo em NodeJs que encontre o caminho de menor custo a partir de um nó de origem. Imprima o resultado do custo e o caminho calculado a partir do vértice 0 para todos os outros.
 
 ### Requisitos
 
@@ -92,9 +88,6 @@ Resultado de todos os vértices do grafo a partir do vértice 0. O calculo foi r
 7,12,0-4-7
 ```
 
-<p align="center">
-  <img src="https://everguard.com.br/desafios/Resultado_Desafio2.png" width="600" title="Resultado Desafio 2" alt="Resultado Desafio 2">
-</p>
 
 
 
