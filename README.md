@@ -1,6 +1,6 @@
 ![version](https://img.shields.io/badge/version-1.0.0-blue.svg?longCache=true&style=flat-square)
 
-# Problema do caminho mínimo
+# Caminho mínimo (técnica de algoritmo de Dijkstra)
 
 ## Objetivo:
 
